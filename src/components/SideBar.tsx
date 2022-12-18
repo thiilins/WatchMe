@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import { api } from "../services/api";
+import { apiGenres } from "../services/api";
 import { Button } from "./Button";
 import { useMain } from "../hooks/useMain";
-interface GenreResponseProps {
+interface GenreProps {
   id: number;
   name: "action" | "comedy" | "documentary" | "drama" | "horror" | "family";
   title: string;
@@ -10,11 +10,10 @@ interface GenreResponseProps {
 
 export function SideBar() {
   const { selectedGenreId, handleClickButton } = useMain();
-  const [genres, setGenres] = useState<GenreResponseProps[]>([]);
+  const [genres, setGenres] = useState<GenreProps[]>([]);
   useEffect(() => {
-    api.get<GenreResponseProps[]>("genres").then((response) => {
-      setGenres(response.data);
-    });
+    const genres = apiGenres();
+    setGenres(genres);
   }, []);
 
   return (
