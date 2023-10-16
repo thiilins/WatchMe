@@ -1,32 +1,67 @@
 <div align="center" id="top">
- <a href="https://td-watchme.vercel.app/"><img src="./.github/assets/readme_banner.png" alt="pokedex-react" width='100%'/></a>
-
-&#xa0;
-
-<a href="<https://td-watchme.vercel.app/>">Demo</a>
+  
+[🇧🇷 Português](./README.md) | [🇺🇸 English](./README_EN.md) | [🇪🇸 Español](./README_ES.md)
 
 </div>
 
-<h2 align="center"> Desafio 02 : Componentizando a aplicação ( Projeto WatchMe ) </h2>
+# WatchMe : Componentizando a aplicação 
 
-<p align="center">
+<div align="center">
 
-  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/thiilins/WatchMe?style=for-the-badge&color=FF5858">
+![Capa do Projeto](./.github/assets/cover.png)
 
-  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/thiilins/WatchMe?style=for-the-badge&color=FF5858">
+[Ver Demonstração](https://td-watchme.vercel.app/)
 
-  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/thiilins/WatchMe?style=for-the-badge&color=FF5858">
+![Linguagem Principal](https://img.shields.io/github/languages/top/thiilins/WatchMe?style=for-the-badge&color=FF5858)
+![Linguagens Utilizadas](https://img.shields.io/github/languages/count/thiilins/WatchMe?style=for-the-badge&color=FF5858)
+![Tamanho do Repositório](https://img.shields.io/github/repo-size/thiilins/WatchMe?style=for-the-badge&color=FF5858)
+![Licença](https://img.shields.io/github/license/thiilins/WatchMe?style=for-the-badge&color=FF5858)
 
-  <img alt="Licença" src="https://img.shields.io/github/license/thiilins/WatchMe?style=for-the-badge&color=FF5858">
+</div>
 
-</p>
+## 📖 Índice
 
-## 🚀 Sobre o Projeto
+- [Sobre o Projeto](#-sobre-o-projeto)
+- [Capturas de Tela](#-capturas-de-tela)
+- [Instalação e Uso](#-instalação-e-uso)
+- [Tecnologias](#-tecnologias)
+- [Licença](#-licença)
+- [Como Contribuir](#-como-contribuir)
+- [Agradecimentos](#-agradecimentos)
+- [Contato](#-contato)
+
+## 📘 Sobre o Projeto
 
 O projeto consiste em uma aplicação de listagem de filmes, que são consumidos de uma fake api, o desafio pede para
 efetuar um componentização da aplicação pois a mesma se encontra toda no arquivo App.tsx, o objetivo é dividir a aplicação em dois componentes principais a SideBar e a Content, reutilizando todo o código da App.tsx, onde após a componentização ela deve ter o mesmo comportamento de quando não estava dividida em componentes.
 
-## 🧰 Tecnologias Utilizadas
+## 📷 Capturas de Tela
+
+#### Em Construção 🔨🚧
+
+## 🚀 Instalação e Uso
+
+```bash
+# Clone este repositório:
+git clone https://github.com/thiilins/WatchMe.git
+
+# Acesse o diretório do projeto:
+cd WatchMe
+
+# Instale as dependências:
+yarn
+# ou
+npm install
+
+# Inicie a aplicação:
+yarn dev
+# ou
+npm run dev
+
+# Acesse a aplicação em seu navegador em: `http://localhost:3000`
+```
+
+## 🛠 Tecnologias
 
 - VSCode ( IDE )
 - ReactJS
@@ -37,38 +72,25 @@ efetuar um componentização da aplicação pois a mesma se encontra toda no arq
 - JavaScript
 - JSON Server
 
-## ⚙️ Rodando o Projeto
+## 📜 Licença
 
-```bash
-# Crie uma pasta
-$ mkdir react-ignite-components
-# Clone este repositório para a pasta anterior
-$ git clone https://github.com/thiilins/WatchMe.git
-# ou use a opção de download.
-# Instale as dependências
-$ yarn install
-ou
-$ npm install
-# Sobe o JSON Server que prove a api Fake para consumo dos dados dos arquivos json
-# Abra um terminal que esteja na pasta do projeto e de o seguinte comando
-$ yarn server
-# Executando o Projeto
-$ yarn dev
-ou
-$ npm dev
-# Acesse http://localhost:8080 no seu navagador
-```
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para obter mais detalhes.
 
-## 🌐 Referências
+## 🤝 Como Contribuir
 
+1. **Fork** este repositório.
+2. Crie uma nova **branch** com suas modificações: `git checkout -b minha-feature`.
+3. Salve suas alterações e faça um commit explicando o que você fez: `git commit -m "Adicionando minha-feature"`.
+4. Envie suas alterações: `git push origin minha-feature`.
+5. Crie uma **pull request**.
+
+## 🙌 Agradecimentos
+
+Agradecemos a todos os contribuidores que tornaram este projeto possível.
 [Desafio 02 - WatchMe](https://www.notion.so/Desafio-02-Componentizando-a-aplica-o-b9f0f025c95b437699d0c3115f55b0f1) - Notion com todas as informações.
 
-<br>
+## 📬 Contato
 
-## 📝 Licença
+Para sugestões, feedback ou dúvidas, abra uma [issue](https://github.com/thiilins/WatchMe/issues) ou entre em contato através do meu [perfil no GitHub](https://github.com/thiilins).
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](/LICENSE) para mais detalhes.
-
----
-
-Feito com ❤️ por [Thiago Lins](https://github.com/thiilins) 😊
+<p align="right">(<a href="#top">Voltar para o topo</a>)</p>
